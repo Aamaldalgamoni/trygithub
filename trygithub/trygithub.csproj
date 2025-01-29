@@ -68,6 +68,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="adnan\page1.aspx" />
+    <Content Include="adnan\WebForm1.aspx" />
     <Content Include="amal\page1.aspx" />
     <Content Include="hazem\page1.aspx" />
     <Content Include="saleh\page1.aspx" />
@@ -82,6 +83,13 @@
     </Compile>
     <Compile Include="adnan\page1.aspx.designer.cs">
       <DependentUpon>page1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="adnan\WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="adnan\WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
     </Compile>
     <Compile Include="amal\page1.aspx.cs">
       <DependentUpon>page1.aspx</DependentUpon>
